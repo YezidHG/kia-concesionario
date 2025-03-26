@@ -15,17 +15,16 @@ Este proyecto consiste en el desarrollo de una página web para la gestión de c
 
 ## 👥 **Equipo de Desarrollo**  
 | Rol          | Nombre |  
-|-------------|--------|  
-| 👨‍💻 **Scrum Master**  | [Nombre] |  
-| 📊 **Analistas**  | [Nombre 1], [Nombre 2] |  
-| 🏗️ **Desarrolladores**  | [Nombre 1], [Nombre 2] |  
-| 🛠️ **Tester**  | [Nombre] |  
+|-------------|--------|   
+| 📊 **Analistas**  | [Yezid Hernández], [Santiago Hurtado] |  
+| 🏗️ **Desarrolladores**  | [Oscar Cabezas], [Fabian Dorado] |  
+| 🛠️ **Tester**  | [Laura Benavides] |  
 
 ## 🚀 **Tecnologías Utilizadas**  
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Java (Spring Boot)  
 - **Base de Datos:** Oracle  
-- **Herramientas:** Git, GitHub, Figma, Trello  
+- **Herramientas:** Git, GitHub, Figma, GitHub Projects, Visual Studio Community
 
 ## 🔄 **Metodología de Trabajo - Scrum**  
 El proyecto se desarrolla en **4 Sprints**, cada uno con historias de usuario específicas:  
