@@ -16,9 +16,9 @@ Este proyecto consiste en el desarrollo de una página web para la gestión de c
 ## 👥 **Equipo de Desarrollo**  
 | Rol          | Nombre |  
 |-------------|--------|   
-| 📊 **Analistas**  | [Yezid Hernández], [Santiago Hurtado] |  
-| 🏗️ **Desarrolladores**  | [Oscar Cabezas], [Fabian Dorado] |  
-| 🛠️ **Tester**  | [Laura Benavides] |  
+| 📊 **Analistas**  | Yezid Hernández, Santiago Hurtado |  
+| 🏗️ **Desarrolladores**  | Oscar Cabezas, Fabian Dorado |  
+| 🛠️ **Tester**  | Laura Benavides |  
 
 ## 🚀 **Tecnologías Utilizadas**  
 - **Frontend:** HTML, CSS, JavaScript  
@@ -39,10 +39,10 @@ El proyecto se desarrolla en **4 Sprints**, cada uno con historias de usuario es
 #### 🚀 **Sprint 2 - Cotizaciones**  
 - HU4 - Registrar una cotización  
 - HU5 - Editar una cotización  
-- HU6 - Consultar una cotización  
 
 #### 🔄 **Sprint 3 - Comparaciones**  
-- HU7 - Comparar una cotización  
+- HU6 - Comparar una cotización
+- HU7 - Consultar una cotización  
 
 #### 🔔 **Sprint 4 - Notificaciones y Disponibilidad**  
 - HU8 - Consultar disponibilidad  
