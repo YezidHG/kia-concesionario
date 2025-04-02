@@ -7,4 +7,10 @@
     <RootNamespace>kia_concesionario</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Citas\" />
+    <Folder Include="Views\Clientes\" />
+    <Folder Include="Views\Vehiculos\" />
+  </ItemGroup>
+
 </Project>
