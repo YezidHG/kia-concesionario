@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kia-concesionario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5692f86e218c19aa1495daced96c9f12ee1c02a5")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df97f473f006149bbbbff33b585fd1fe9fe47e8d")]
+>>>>>>> ac60de26171018ed9a30d3b7207026c0445c1fef
 [assembly: System.Reflection.AssemblyProductAttribute("kia-concesionario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kia-concesionario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
