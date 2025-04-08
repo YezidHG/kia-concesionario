@@ -13,4 +13,9 @@
     <Folder Include="Views\Vehiculos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.80" />
+  </ItemGroup>
+
 </Project>
