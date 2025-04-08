@@ -1,12 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52A8E-E8CF-4BA1-8980-C1D920DDEB02}|kia-concesionario\\kia-concesionario.csproj|c:\\users\\user\\desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5D52A8E-E8CF-4BA1-8980-C1D920DDEB02}|kia-concesionario\\kia-concesionario.csproj|solutionrelative:kia-concesionario\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D52A8E-E8CF-4BA1-8980-C1D920DDEB02}|kia-concesionario\\kia-concesionario.csproj|c:\\users\\user\\desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D5D52A8E-E8CF-4BA1-8980-C1D920DDEB02}|kia-concesionario\\kia-concesionario.csproj|solutionrelative:kia-concesionario\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "kia-concesionario\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "kia-concesionario\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-02T02:22:30.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "kia-concesionario\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "kia-concesionario\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-02T02:22:09.876Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
