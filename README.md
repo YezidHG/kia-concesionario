@@ -5,7 +5,7 @@ Este proyecto consiste en el desarrollo de una página web para la gestión de c
 
 ## 🏗️ Arquitectura del Proyecto  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Java (Spring Boot o similar)  
+- **Backend:** c#
 - **Base de Datos:** Oracle  
 
 ## 🎯 Objetivos  
