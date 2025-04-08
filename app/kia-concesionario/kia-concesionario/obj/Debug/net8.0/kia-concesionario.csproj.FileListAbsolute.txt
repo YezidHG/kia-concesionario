@@ -1,0 +1,9 @@
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.csproj.AssemblyReference.cache
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.AssemblyInfoInputs.cache
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.AssemblyInfo.cs
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.csproj.CoreCompileInputs.cache
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.RazorAssemblyInfo.cache
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.RazorAssemblyInfo.cs
+C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\obj\Debug\net8.0\kia-concesionario.sourcelink.json
