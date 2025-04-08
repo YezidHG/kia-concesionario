@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\kia-concesionario.props" />
+</Project>
