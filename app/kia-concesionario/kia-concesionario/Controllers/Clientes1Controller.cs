@@ -10,85 +10,85 @@ using kia_concesionario.Models.kia_concesionario.Models;
 
 namespace kia_concesionario.Controllers
 {
-    public class CitasController : Controller
+    public class Clientes1Controller : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public CitasController(ApplicationDbContext context)
+        public Clientes1Controller(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Citas
+        // GET: Clientes1
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Citas.ToListAsync());
+            return View(await _context.Clientes.ToListAsync());
         }
 
-        // GET: Citas/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: Clientes1/Details/5
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var cita = await _context.Citas
-                .FirstOrDefaultAsync(m => m.Id_cita == id);
-            if (cita == null)
+            var cliente = await _context.Clientes
+                .FirstOrDefaultAsync(m => m.Cedula == id);
+            if (cliente == null)
             {
                 return NotFound();
             }
 
-            return View(cita);
+            return View(cliente);
         }
 
-        // GET: Citas/Create
+        // GET: Clientes1/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Citas/Create
+        // POST: Clientes1/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id_cita,Cedula_cliente,Fecha_cita,Hora_cita,Estado")] Cita cita)
+        public async Task<IActionResult> Create([Bind("Cedula,Nombre,Apellido,Correo,Celular")] Cliente cliente)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(cita);
+                _context.Add(cliente);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(cita);
+            return View(cliente);
         }
 
-        // GET: Citas/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        // GET: Clientes1/Edit/5
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var cita = await _context.Citas.FindAsync(id);
-            if (cita == null)
+            var cliente = await _context.Clientes.FindAsync(id);
+            if (cliente == null)
             {
                 return NotFound();
             }
-            return View(cita);
+            return View(cliente);
         }
 
-        // POST: Citas/Edit/5
+        // POST: Clientes1/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id_cita,Cedula_cliente,Fecha_cita,Hora_cita,Estado")] Cita cita)
+        public async Task<IActionResult> Edit(string id, [Bind("Cedula,Nombre,Apellido,Correo,Celular")] Cliente cliente)
         {
-            if (id != cita.Id_cita)
+            if (id != cliente.Cedula)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace kia_concesionario.Controllers
             {
                 try
                 {
-                    _context.Update(cita);
+                    _context.Update(cliente);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CitaExists(cita.Id_cita))
+                    if (!ClienteExists(cliente.Cedula))
                     {
                         return NotFound();
                     }
@@ -113,45 +113,45 @@ namespace kia_concesionario.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(cita);
+            return View(cliente);
         }
 
-        // GET: Citas/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: Clientes1/Delete/5
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var cita = await _context.Citas
-                .FirstOrDefaultAsync(m => m.Id_cita == id);
-            if (cita == null)
+            var cliente = await _context.Clientes
+                .FirstOrDefaultAsync(m => m.Cedula == id);
+            if (cliente == null)
             {
                 return NotFound();
             }
 
-            return View(cita);
+            return View(cliente);
         }
 
-        // POST: Citas/Delete/5
+        // POST: Clientes1/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var cita = await _context.Citas.FindAsync(id);
-            if (cita != null)
+            var cliente = await _context.Clientes.FindAsync(id);
+            if (cliente != null)
             {
-                _context.Citas.Remove(cita);
+                _context.Clientes.Remove(cliente);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CitaExists(int id)
+        private bool ClienteExists(string id)
         {
-            return _context.Citas.Any(e => e.Id_cita == id);
+            return _context.Clientes.Any(e => e.Cedula == id);
         }
     }
 }

@@ -1,5 +1,6 @@
-using kia_concesionario.Data;
 using Microsoft.EntityFrameworkCore;
+using kia_concesionario.Data;
+
 
 
 var builder = WebApplication.CreateBuilder(args);

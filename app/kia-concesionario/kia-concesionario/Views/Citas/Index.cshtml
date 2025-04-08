@@ -1,0 +1,53 @@
+﻿@model IEnumerable<kia_concesionario.Models.kia_concesionario.Models.Cita>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cedula_cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha_cita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hora_cita)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha_cita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hora_cita)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id_cita">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id_cita">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id_cita">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

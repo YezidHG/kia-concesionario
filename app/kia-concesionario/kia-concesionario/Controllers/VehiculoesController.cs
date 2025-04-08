@@ -10,22 +10,22 @@ using kia_concesionario.Models.kia_concesionario.Models;
 
 namespace kia_concesionario.Controllers
 {
-    public class CitasController : Controller
+    public class VehiculoesController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public CitasController(ApplicationDbContext context)
+        public VehiculoesController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Citas
+        // GET: Vehiculoes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Citas.ToListAsync());
+            return View(await _context.Vehiculos.ToListAsync());
         }
 
-        // GET: Citas/Details/5
+        // GET: Vehiculoes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +33,39 @@ namespace kia_concesionario.Controllers
                 return NotFound();
             }
 
-            var cita = await _context.Citas
-                .FirstOrDefaultAsync(m => m.Id_cita == id);
-            if (cita == null)
+            var vehiculo = await _context.Vehiculos
+                .FirstOrDefaultAsync(m => m.Id_vehiculo == id);
+            if (vehiculo == null)
             {
                 return NotFound();
             }
 
-            return View(cita);
+            return View(vehiculo);
         }
 
-        // GET: Citas/Create
+        // GET: Vehiculoes/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Citas/Create
+        // POST: Vehiculoes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id_cita,Cedula_cliente,Fecha_cita,Hora_cita,Estado")] Cita cita)
+        public async Task<IActionResult> Create([Bind("Id_vehiculo,Modelo,Precio,Color,Rines,Tipo_motor,Ancho,Largo,Alto,Disponibilidad,Capacidad")] Vehiculo vehiculo)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(cita);
+                _context.Add(vehiculo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(cita);
+            return View(vehiculo);
         }
 
-        // GET: Citas/Edit/5
+        // GET: Vehiculoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +73,22 @@ namespace kia_concesionario.Controllers
                 return NotFound();
             }
 
-            var cita = await _context.Citas.FindAsync(id);
-            if (cita == null)
+            var vehiculo = await _context.Vehiculos.FindAsync(id);
+            if (vehiculo == null)
             {
                 return NotFound();
             }
-            return View(cita);
+            return View(vehiculo);
         }
 
-        // POST: Citas/Edit/5
+        // POST: Vehiculoes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id_cita,Cedula_cliente,Fecha_cita,Hora_cita,Estado")] Cita cita)
+        public async Task<IActionResult> Edit(int id, [Bind("Id_vehiculo,Modelo,Precio,Color,Rines,Tipo_motor,Ancho,Largo,Alto,Disponibilidad,Capacidad")] Vehiculo vehiculo)
         {
-            if (id != cita.Id_cita)
+            if (id != vehiculo.Id_vehiculo)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace kia_concesionario.Controllers
             {
                 try
                 {
-                    _context.Update(cita);
+                    _context.Update(vehiculo);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CitaExists(cita.Id_cita))
+                    if (!VehiculoExists(vehiculo.Id_vehiculo))
                     {
                         return NotFound();
                     }
@@ -113,10 +113,10 @@ namespace kia_concesionario.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(cita);
+            return View(vehiculo);
         }
 
-        // GET: Citas/Delete/5
+        // GET: Vehiculoes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,34 +124,34 @@ namespace kia_concesionario.Controllers
                 return NotFound();
             }
 
-            var cita = await _context.Citas
-                .FirstOrDefaultAsync(m => m.Id_cita == id);
-            if (cita == null)
+            var vehiculo = await _context.Vehiculos
+                .FirstOrDefaultAsync(m => m.Id_vehiculo == id);
+            if (vehiculo == null)
             {
                 return NotFound();
             }
 
-            return View(cita);
+            return View(vehiculo);
         }
 
-        // POST: Citas/Delete/5
+        // POST: Vehiculoes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var cita = await _context.Citas.FindAsync(id);
-            if (cita != null)
+            var vehiculo = await _context.Vehiculos.FindAsync(id);
+            if (vehiculo != null)
             {
-                _context.Citas.Remove(cita);
+                _context.Vehiculos.Remove(vehiculo);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CitaExists(int id)
+        private bool VehiculoExists(int id)
         {
-            return _context.Citas.Any(e => e.Id_cita == id);
+            return _context.Vehiculos.Any(e => e.Id_vehiculo == id);
         }
     }
 }
