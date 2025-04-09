@@ -129,7 +129,7 @@ EXCEPTION
 END;
 
 
--- CANCELAR CITAA
+--Cancelar cita
 CREATE OR REPLACE PROCEDURE cancelar_cita(p_id_cita IN CITA.Id_cita%TYPE)
 IS
     v_citaExistente NUMBER := 0;
