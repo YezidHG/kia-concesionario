@@ -53,161 +53,124 @@
 </table>
 *@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Agendar Cita | Kia</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-
     <style>
-
         .dia:hover {
-
             background-color: #f3f4f6;
-
             transform: scale(1.05);
-
         }
-
+        /* Nuevo estilo para horas seleccionadas */
+        .hora-btn.seleccionada {
+            background-color: #000 !important;
+            color: white !important;
+        }
     </style>
-
 </head>
-
 <body class="bg-white font-sans">
-
     <header class="bg-black text-white flex justify-between items-center p-4">
-
         <div class="flex items-center">
-
             <i class="fas fa-map-marker-alt mr-2"></i>
-
             <span>Ubicación</span>
-
         </div>
-
         <div>
-
             <span>Contáctanos</span>
-
         </div>
-
+        <div>
+            <button id="btnCancelarCita"
+                    class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm">
+                <i class="fas fa-times-circle mr-1"></i> Cancelar Cita
+            </button>
+        </div>
     </header>
 
-
-
     <main>
-
         <!-- Logo -->
-
         <div class="flex flex-col items-center">
-
             <img src="https://th.bing.com/th/id/OIP._dP17Rf0ev1WcGoamJDycwHaCe?rs=1&pid=ImgDetMain"
                  alt="Kia logo"
                  class="my-4"
                  height="50"
                  width="200">
-
         </div>
 
-
-
-        <!-- Contenedor principal (formulario + calendario) -->
-
+        <!-- Contenedor principal -->
         <div class="max-w-6xl mx-auto p-4 flex flex-col md:flex-row gap-8">
-
-            <!-- Calendario (ahora a la derecha) -->
-
-            <div class="md:w-1/2 bg-gray-50 p-6 rounded-lg shadow-sm order-2 md:order-2">
-
+            <!-- Calendario -->
+            <div class="md:w-1/2 bg-gray-50 p-6 rounded-lg shadow-sm">
                 <h2 class="text-xl font-bold mb-4">Selecciona una fecha</h2>
-
                 <div id="calendar" class="grid grid-cols-7 gap-2 text-center mb-4"></div>
-
-                <input type="hidden" id="selectedDate" required>
-
+                <input type="hidden" id="selectedDate" name="Fecha">
                 <p id="fechaSeleccionada" class="text-sm text-gray-500 italic"></p>
-
             </div>
 
-
-
-            <!-- Formulario (a la izquierda) -->
-
-            <div class="md:w-1/2 bg-gray-50 p-6 rounded-lg shadow-sm order-1 md:order-1">
-
+            <!-- Formulario -->
+            <div class="md:w-1/2 bg-gray-50 p-6 rounded-lg shadow-sm">
                 <h1 class="text-2xl font-bold mb-6">Agenda tu Cita de Servicio</h1>
-
-                <form class="space-y-4">
-
-                    <!-- Campos en columna -->
-
+                <form class="space-y-4" method="post" action="#">
                     <div>
-
                         <label class="block text-gray-700 mb-1">Nombre*</label>
-
-                        <input type="text" required class="w-full p-2 border rounded">
-
+                        <input type="text" name="Nombre" required class="w-full p-2 border rounded">
                     </div>
-
                     <div>
-
                         <label class="block text-gray-700 mb-1">Apellidos*</label>
-
-                        <input type="text" required class="w-full p-2 border rounded">
-
+                        <input type="text" name="Apellidos" required class="w-full p-2 border rounded">
                     </div>
-
                     <div>
-
                         <label class="block text-gray-700 mb-1">Cédula*</label>
-
-                        <input type="text" required class="w-full p-2 border rounded">
-
+                        <input type="text" name="Cedula" required class="w-full p-2 border rounded">
                     </div>
-
                     <div>
-
                         <label class="block text-gray-700 mb-1">Correo Electrónico*</label>
-
-                        <input type="email" required class="w-full p-2 border rounded">
-
+                        <input type="email" name="Email" required class="w-full p-2 border rounded">
                     </div>
-
                     <div>
-
                         <label class="block text-gray-700 mb-1">Celular*</label>
-
-                        <input type="tel" required class="w-full p-2 border rounded">
-
+                        <input type="tel" name="Celular" required class="w-full p-2 border rounded">
                     </div>
-
+                    <!-- Inputs hidden para fecha y hora -->
+                    <input type="hidden" id="horaSeleccionada" name="Hora">
                     <button type="submit" class="w-full bg-black text-white py-3 rounded-lg font-medium hover:bg-gray-800 mt-6">
-
                         Agendar cita
-
                     </button>
-
                 </form>
-
             </div>
-
         </div>
-
     </main>
-
-
 
     <script src="calendario.js"></script>
 
-</body>
+    <div id="modalCancelar" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
+        <div class="bg-white p-6 rounded-lg max-w-md w-full">
+            <h3 class="text-xl font-bold mb-4">Cancelar Cita</h3>
+            <form id="formCancelar" class="space-y-3">
+                <div>
+                    <label class="block text-gray-700 mb-1">Cédula*</label>
+                    <input type="text" name="cedula" required class="w-full p-2 border rounded">
+                </div>
+                <div>
+                    <label class="block text-gray-700 mb-1">Número de celular*</label>
+                    <input type="tel" name="celular" required class="w-full p-2 border rounded">
+                </div>
+                <div class="flex gap-2 pt-2">
+                    <button type="button"
+                            onclick="document.getElementById('modalCancelar').classList.add('hidden')"
+                            class="flex-1 bg-gray-300 hover:bg-gray-400 py-2 rounded">
+                        Volver
+                    </button>
+                    <button type="submit"
+                            class="flex-1 bg-red-600 hover:bg-red-700 text-white py-2 rounded">
+                        Confirmar Cancelación
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 
+</body>
 </html>
