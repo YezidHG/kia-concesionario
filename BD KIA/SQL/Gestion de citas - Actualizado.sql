@@ -32,7 +32,7 @@ ALTER TRIGGER trg_vehiculo DISABLE;
 
 --Agendar cita
 CREATE OR REPLACE PROCEDURE agendar_cita (p_cedula_cliente IN CLIENTE.Cedula%TYPE, p_nombre IN CLIENTE.Nombre%TYPE, p_apellido IN CLIENTE.Apellido%TYPE, p_correo IN CLIENTE.Correo%TYPE,
-p_celular IN CLIENTE.Celular%TYPE, p_fecha_cita IN CITA.Fecha_cita%TYPE, p_hora_cita IN CITA.Hora_cita%TYPE, p_id_cita OUT CITA.Id_cita%TYPE)
+p_celular IN CLIENTE.Celular%TYPE, p_fecha_cita IN CITA.Fecha_cita%TYPE, p_hora_cita IN CITA.Hora_cita%TYPE, p_id_cita OUT CITA.Id_cita%TYPE, p_fechaCita OUT CITA.Fecha_cita%TYPE, p_horaCita OUT CITA.Hora_cita%TYPE)
 IS
     v_clienteExistente NUMBER := 0;
     v_reservado NUMBER := 0;
@@ -70,6 +70,8 @@ BEGIN
     
     --Para devolver el id de la cita
     p_id_cita := v_idCita;
+    p_fechaCita := p_fecha_cita;
+    p_horaCita := p_hora_cita;
     
 EXCEPTION
     WHEN OTHERS THEN
@@ -161,6 +163,8 @@ SET SERVEROUTPUT ON
 SET VERIFY OFF
 DECLARE
     v_id_cita CITA.Id_cita%TYPE;
+    v_fecha CITA.Fecha_cita%TYPE;
+    v_hora  CITA.Hora_cita%TYPE;
 BEGIN
     agendar_cita(
         p_cedula_cliente => '&Cedula',
@@ -170,11 +174,15 @@ BEGIN
         p_celular        => '&celular',
         p_fecha_cita     => TO_DATE('&fecha', 'YYYY-MM-DD'),
         p_hora_cita      => '&hora',
-        p_id_cita        => v_id_cita
+        p_id_cita        => v_id_cita,
+        p_fechaCita      => v_fecha,
+	      p_horaCita       => v_hora
     );
 
     DBMS_OUTPUT.PUT_LINE('Cita registrada exitosamente');
     DBMS_OUTPUT.PUT_LINE('Numero de cita: ' || v_id_cita);
+    DBMS_OUTPUT.PUT_LINE('Fecha de cita: ' || v_fecha);
+    DBMS_OUTPUT.PUT_LINE('Hora de cita: ' || v_hora);
 
 EXCEPTION
     WHEN OTHERS THEN
