@@ -17,101 +17,101 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = kia_concesionario
 build_property.RootNamespace = kia_concesionario
-build_property.ProjectDir = C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario\
+build_property.ProjectDir = C:\Users\USER\Desktop\kia-concesionario\kia-concesionario\app\kia-concesionario\kia-concesionario\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yezid Esteban\Desktop\kia-concesionario\app\kia-concesionario\kia-concesionario
+build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\kia-concesionario\kia-concesionario\app\kia-concesionario\kia-concesionario
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Create.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Delete.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Details.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Edit.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Index.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Citas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Create.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXMxXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Delete.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXMxXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Details.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXMxXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Edit.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXMxXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Index.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Clientes1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXMxXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Home/Index.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Home/Privacy.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/Error.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Create.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Delete.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Details.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Edit.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Index.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Vehiculoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/_ViewImports.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Yezid Esteban/Desktop/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Desktop/kia-concesionario/kia-concesionario/app/kia-concesionario/kia-concesionario/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-eim50q0bcs

@@ -18,7 +18,7 @@ namespace kia_concesionario.Controllers
         {
             _context = context;
         }
-
+        
         // GET: Citas
         public async Task<IActionResult> Index()
         {
