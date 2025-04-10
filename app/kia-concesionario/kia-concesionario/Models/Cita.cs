@@ -5,6 +5,7 @@
 
     namespace kia_concesionario.Models
     {
+        [Table("CITA")]
         public class Cita
         {
             [Column("ID_CITA")]

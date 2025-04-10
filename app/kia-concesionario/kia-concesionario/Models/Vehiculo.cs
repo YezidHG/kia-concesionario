@@ -1,7 +1,10 @@
-﻿namespace kia_concesionario.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace kia_concesionario.Models
 {
     namespace kia_concesionario.Models
     {
+        [Table("VEHICULO")]
         public class Vehiculo
         {
             public int Id_vehiculo { get; set; }
