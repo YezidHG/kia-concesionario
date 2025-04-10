@@ -94,6 +94,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Index.cshtml",
+              "RelativeDocumentMoniker": "kia-concesionario\\Views\\Citas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Index.cshtml",
+              "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T19:53:28.888Z"
+=======
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -119,6 +134,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T00:15:04.295Z"
+>>>>>>> b23abf19512610e1f7d19734cce7459b522b0d35
             },
             {
               "$type": "Document",
@@ -130,11 +146,21 @@
               "RelativeToolTip": "kia-concesionario\\Controllers\\CitasController.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAADwv5UAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T00:19:51.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T00:19:51.479Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 4,
+              "Title": "Clientes1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Controllers\\Clientes1Controller.cs",
+              "RelativeDocumentMoniker": "kia-concesionario\\Controllers\\Clientes1Controller.cs",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Controllers\\Clientes1Controller.cs",
+              "RelativeToolTip": "kia-concesionario\\Controllers\\Clientes1Controller.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:15:04.295Z"
+=======
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Home\\Index.cshtml",
@@ -145,10 +171,75 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-08T20:08:11.856Z",
               "EditorCaption": ""
+>>>>>>> b23abf19512610e1f7d19734cce7459b522b0d35
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "kia-concesionario\\Models\\Cita.cs",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Models\\Cita.cs",
+              "RelativeToolTip": "kia-concesionario\\Models\\Cita.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:42:42.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "kia-concesionario\\Views\\Citas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Edit.cshtml",
+              "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T02:04:47.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\appsettings.json",
+              "RelativeDocumentMoniker": "kia-concesionario\\appsettings.json",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\appsettings.json",
+              "RelativeToolTip": "kia-concesionario\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T02:44:54.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "kia-concesionario\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "kia-concesionario\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:45:41.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "kia-concesionario\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "kia-concesionario\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T23:17:56.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+=======
+>>>>>>> b23abf19512610e1f7d19734cce7459b522b0d35
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Create.cshtml",
               "RelativeDocumentMoniker": "kia-concesionario\\Views\\Citas\\Create.cshtml",
@@ -156,8 +247,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Create.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T02:03:53.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:03:53.739Z"
             },
             {
               "$type": "Document",
@@ -169,6 +259,9 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Index.cshtml",
               "ViewState": "AgIAAHoAAAAAAAAAAAAowNUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-04-09T02:03:55.644Z"
+=======
               "WhenOpened": "2025-04-08T19:53:28.888Z",
               "EditorCaption": ""
             },
@@ -184,10 +277,50 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-02T02:22:30.403Z",
               "EditorCaption": ""
+>>>>>>> b23abf19512610e1f7d19734cce7459b522b0d35
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< HEAD
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Details.cshtml",
+              "RelativeDocumentMoniker": "kia-concesionario\\Views\\Citas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Citas\\Details.cshtml",
+              "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T02:03:58.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "kia-concesionario\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "kia-concesionario\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T20:08:11.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "kia-concesionario\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "kia-concesionario\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T20:10:18.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+=======
+>>>>>>> b23abf19512610e1f7d19734cce7459b522b0d35
               "Title": "VehiculoesController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Controllers\\VehiculoesController.cs",
               "RelativeDocumentMoniker": "kia-concesionario\\Controllers\\VehiculoesController.cs",
