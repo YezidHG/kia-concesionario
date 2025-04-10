@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/kia-concesionario/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bIULpPObSC2LUwg\u002B8yd4cjkEGJb/eRdWfDgINogQdF8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9661"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bIULpPObSC2LUwg\u002B8yd4cjkEGJb/eRdWfDgINogQdF8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 01:02:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LPzA8E5vIcS\u002BLMQoTzjoWL505yo\u002B8yymwvf1ev7Tpw0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9803"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LPzA8E5vIcS\u002BLMQoTzjoWL505yo\u002B8yymwvf1ev7Tpw0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 14:38:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/kia-concesionario/js/site.wd2m1d5294.js">
+    <StaticWebAssetEndpoint Include="_content/kia-concesionario/js/site.o35g2x63o9.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wd2m1d5294"},{"Name":"integrity","Value":"sha256-bIULpPObSC2LUwg\u002B8yd4cjkEGJb/eRdWfDgINogQdF8="},{"Name":"label","Value":"_content/kia-concesionario/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9661"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bIULpPObSC2LUwg\u002B8yd4cjkEGJb/eRdWfDgINogQdF8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 01:02:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o35g2x63o9"},{"Name":"integrity","Value":"sha256-LPzA8E5vIcS\u002BLMQoTzjoWL505yo\u002B8yymwvf1ev7Tpw0="},{"Name":"label","Value":"_content/kia-concesionario/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9803"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022LPzA8E5vIcS\u002BLMQoTzjoWL505yo\u002B8yymwvf1ev7Tpw0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 14:38:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/kia-concesionario/kia-concesionario.bkt2uxp9u6.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\kia-concesionario.bkt2uxp9u6.bundle.scp.css'))</AssetFile>
