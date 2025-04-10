@@ -106,8 +106,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T19:53:28.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:53:28.888Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "kia-concesionario\\Controllers\\CitasController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAawDgAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T00:19:51.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T00:19:51.479Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "kia-concesionario\\Controllers\\Clientes1Controller.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T00:15:04.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T00:15:04.295Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "kia-concesionario\\Models\\Cita.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T02:42:42.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T02:42:42.087Z"
             },
             {
               "$type": "Document",
@@ -158,8 +154,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Edit.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T02:04:47.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:04:47.055Z"
             },
             {
               "$type": "Document",
@@ -171,8 +166,7 @@
               "RelativeToolTip": "kia-concesionario\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T02:44:54.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T02:44:54.816Z"
             },
             {
               "$type": "Document",
@@ -182,7 +176,7 @@
               "RelativeDocumentMoniker": "kia-concesionario\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "kia-concesionario\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T02:45:41.66Z",
               "EditorCaption": ""
@@ -197,8 +191,7 @@
               "RelativeToolTip": "kia-concesionario\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T23:17:56.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T23:17:56.504Z"
             },
             {
               "$type": "Document",
@@ -210,8 +203,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Create.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T02:03:53.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:03:53.739Z"
             },
             {
               "$type": "Document",
@@ -223,8 +215,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Delete.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T02:03:55.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:03:55.644Z"
             },
             {
               "$type": "Document",
@@ -236,8 +227,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Citas\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T02:03:58.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T02:03:58.313Z"
             },
             {
               "$type": "Document",
@@ -249,8 +239,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T20:08:11.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:08:11.856Z"
             },
             {
               "$type": "Document",
@@ -262,8 +251,7 @@
               "RelativeToolTip": "kia-concesionario\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T20:10:18.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:10:18.67Z"
             },
             {
               "$type": "Document",
