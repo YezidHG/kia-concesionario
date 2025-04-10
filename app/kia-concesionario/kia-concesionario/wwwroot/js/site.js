@@ -3,7 +3,7 @@
 
 // Write your JavaScript code.
 document.addEventListener('DOMContentLoaded', function () {
-    // ========== Funciones para Agendar Cita ==========
+    // ========== Funciones para Agendar Cita (sin cambios) ==========
     const calendar = document.getElementById('calendar');
     const selectedDateInput = document.getElementById('selectedDate');
     const fechaSeleccionadaText = document.getElementById('fechaSeleccionada');
@@ -102,26 +102,26 @@ document.addEventListener('DOMContentLoaded', function () {
         calendar.parentNode.appendChild(horariosDiv);
     }
 
-    // ========== Funciones para Cancelar Cita ==========
+    // ========== Funciones para Cancelar Cita (actualizado a 'id cita') ==========
     document.getElementById('btnCancelarCita')?.addEventListener('click', () => {
         document.getElementById('modalCancelar').classList.remove('hidden');
     });
 
     document.getElementById('formCancelar')?.addEventListener('submit', (e) => {
         e.preventDefault();
-        const cedula = e.target.cedula.value.trim();
+        const idCita = e.target["id cita"].value.trim(); // Cambiado de 'cedula' a 'id cita'
 
-        if (!cedula) {
-            alert("Por favor ingresa tu cédula");
+        if (!idCita) {
+            alert("Por favor ingresa el ID de la cita");
             return;
         }
 
-        alert(`✔️ Cita cancelada para la cédula: ${cedula}`);
+        alert(`✔️ Cita cancelada para el ID: ${idCita}`);
         document.getElementById('modalCancelar').classList.add('hidden');
         e.target.reset();
     });
 
-    // ========== Funciones para Aplazar Cita ==========
+    // ========== Funciones para Aplazar Cita (actualizado a 'id cita') ==========
     document.getElementById('btnAplazarCita')?.addEventListener('click', () => {
         document.getElementById('modalAplazar').classList.remove('hidden');
         renderCalendarioAplazar();
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('formAplazar')?.addEventListener('submit', (e) => {
         e.preventDefault();
-        const cedula = e.target.cedula.value;
+        const idCita = e.target["id cita"].value; // Cambiado de 'cedula' a 'id cita'
         const nuevaFecha = document.getElementById('nuevaFecha').value;
         const nuevaHora = document.getElementById('horaSeleccionadaAplazar')?.value;
 
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        alert(`✅ Cita aplazada para:\nCédula: ${cedula}\nNueva fecha: ${nuevaFecha}\nNueva hora: ${nuevaHora}`);
+        alert(`✅ Cita aplazada para:\nID: ${idCita}\nNueva fecha: ${nuevaFecha}\nNueva hora: ${nuevaHora}`);
         document.getElementById('modalAplazar').classList.add('hidden');
         e.target.reset();
     });
