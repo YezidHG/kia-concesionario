@@ -6230,23 +6230,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yezid Esteban\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\kia-concesionario.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\kia-concesionario.csproj",
       "projectName": "kia-concesionario",
-      "projectPath": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\kia-concesionario.csproj",
-      "packagesPath": "C:\\Users\\Yezid Esteban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yezid Esteban\\Desktop\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\kia-concesionario.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\kia-concesionario\\kia-concesionario\\app\\kia-concesionario\\kia-concesionario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yezid Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
